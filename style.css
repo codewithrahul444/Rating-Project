@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.contener {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1vh 0vw;
+  margin: 1vh 0vw;
+}
+
+h1 {
+  margin: 2vh 0vw;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+}
+
+.btns {
+  font-size: 10vw;
+  transition: all 0.3s linear;
+}
+
+.rateContener {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vw;
+  width: 100%;
+}
